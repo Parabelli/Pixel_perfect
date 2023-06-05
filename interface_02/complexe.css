@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+}
+
+body {
+  width: 316px;
+  height: 915px;
+  background-color: #f4f7f6;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+}
+.all article {
+  display: flex;
+  align-items: center;
+  height: 66px;
+  border-bottom: solid 2px #e8ecec;
+  padding-left: 35px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.all .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 71px;
+  font-size: 12px;
+  font-weight: 300;
+  padding-left: 0;
+}
+.all .header .flag img {
+  width: 19px;
+  height: 13px;
+  margin-left: 5px;
+}
+.all .header .cross img {
+  width: 19px;
+  height: 19px;
+  margin-left: 14px;
+}
+.all .header .head1 {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-left: 30px;
+}
+.all .header .head2 {
+  display: flex;
+  align-items: center;
+  margin-right: 26px;
+}
+.all .academy {
+  display: flex;
+  background-color: #a0d4ce;
+}
+.all .right1 {
+  font-size: 12px;
+  padding: 6px 9px;
+  background-color: #44aa9c;
+  color: white;
+  border-radius: 4px;
+  margin-left: 9px;
+}
+.all .right2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  padding: 7px;
+  background-color: #fef7c0;
+  color: black;
+  border-radius: 100%;
+  margin-left: 63px;
+}
+.all .right3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  padding: 7px;
+  background-color: #a0d4ce;
+  color: black;
+  border-radius: 100%;
+  margin-left: 130px;
+}
+.all .conferences {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 117px;
+}
+.all .conferences .conf {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.all .conferences p {
+  margin-right: 80px;
+}
+.all .footer1 {
+  font-size: 13px;
+  color: #b9bdbd;
+  margin-bottom: 11px;
+}
+
+/*# sourceMappingURL=complexe.css.map */
